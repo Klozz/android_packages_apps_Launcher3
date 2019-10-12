@@ -1272,6 +1272,8 @@ public class Launcher extends StatefulActivity<LauncherState>
         } else {
             mOverlayManager.onActivityResumed(this);
         }
+                        
+        LauncherAppState.getInstanceNoCreate().checkIfRestartNeeded();
 
         LauncherAppState.getInstanceNoCreate().checkIfRestartNeeded();
 
