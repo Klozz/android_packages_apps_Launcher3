@@ -23,6 +23,5 @@
     <!-- Gestures -->
     <!-- Edit workspace -->
     <!-- Hide labels -->
-    <string name="label_search">Pesquisa</string>
-    <string name="label_voice_search">Pesquisa de voz</string>
+    <!-- Show top shadow -->
 </resources>
