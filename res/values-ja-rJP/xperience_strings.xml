@@ -23,6 +23,5 @@
     <!-- Gestures -->
     <!-- Edit workspace -->
     <!-- Hide labels -->
-    <string name="label_search">検索</string>
-    <string name="label_voice_search">音声検索</string>
+    <!-- Show top shadow -->
 </resources>
