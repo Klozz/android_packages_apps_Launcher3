@@ -23,5 +23,5 @@
     <!-- Gestures -->
     <!-- Edit workspace -->
     <!-- Hide labels -->
-    <string name="label_search">Hledat</string>
+    <!-- Show top shadow -->
 </resources>
