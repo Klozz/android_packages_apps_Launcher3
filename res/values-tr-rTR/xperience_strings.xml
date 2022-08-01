@@ -23,6 +23,5 @@
     <!-- Gestures -->
     <!-- Edit workspace -->
     <!-- Hide labels -->
-    <string name="label_search">Ara</string>
-    <string name="label_voice_search">Sesli arama</string>
+    <!-- Show top shadow -->
 </resources>
