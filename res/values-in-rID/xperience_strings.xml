@@ -17,7 +17,6 @@
 */
 -->
 <resources>
-    <string name="google_folder_title">Google</string>
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
     <string name="title_show_google_app">Geser untuk mengakses aplikasi Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
@@ -42,7 +41,6 @@
     <string name="desktop_show_labels">Tampilkan label ikon pada desktop</string>
     <string name="drawer_show_labels">Tampilkan label ikon di laci aplikasi</string>
     <string name="label_search">Cari</string>
-    <string name="label_lens">Google Lens</string>
     <string name="label_voice_search">Pencarian suara</string>
     <string name="dock_search_title">Bilah pencarian Google</string>
     <string name="dock_search_summary">Tampilkan bilah pencarian di dok bawah</string>
