@@ -17,11 +17,37 @@
 */
 -->
 <resources>
+    <string name="google_folder_title">Google</string>
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Przesuń, aby uzyskać dostęp do aplikacji Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Gdy przesuniesz w lewo na ekranie głównym</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Gdy przesuniesz w prawo na ekranie głównym</string>
+    <string name="pref_suggestions_title">Sugestie</string>
+    <string name="pref_suggestions_summary">Dla wszystkich aplikacji i ekranu głównego</string>
+    <string name="pref_allow_phone_taskbar">Użyj paska zadań</string>
+    <string name="pref_allow_phone_taskbar_desc">Otwieranie i przełączanie aplikacji w dowolnym miejscu</string>
+    <string name="pref_allow_phone_overview_grid">Wyświetl siatkę ostatnich aplikacji</string>
+    <string name="pref_allow_phone_overview_grid_desc">Więcej aplikacji w menu ostatnich aplikacji</string>
     <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Gest dwukrotnego dotknięcia</string>
+    <string name="pref_dt_gesture_summary">Stuknij dwukrotnie w puste miejsce, aby uśpić urządzenie</string>
     <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Blokada układu ekranu głównego</string>
+    <string name="settings_lock_layout_summary_on">Ikony i widżety nie mogą być dodawane, usuwane ani przenoszone na ekranie głównym</string>
+    <string name="settings_lock_layout_summary_off">Ikony i widżety można dodawać, usuwać i przenosić na ekranie głównym</string>
+    <string name="settings_edit_widgets_error">Nie można dodać widżetów do ekranu głównego</string>
     <!-- Hide labels -->
+    <string name="desktop_show_labels">Pokaż etykiety ikon na pulpicie</string>
+    <string name="drawer_show_labels">Pokaż etykiety ikon w szufladzie</string>
+    <string name="label_search">Wyszukaj</string>
+    <string name="label_lens">Obiektyw Google</string>
+    <string name="label_voice_search">Wyszukiwanie głosowe</string>
+    <string name="dock_search_title">Pasek wyszukiwania Google</string>
+    <string name="dock_search_summary">Pokaż pasek wyszukiwania w dolnej panelu dokującym</string>
+    <string name="dock_theme_title">Ikony tematyczne w panelu dokującym</string>
+    <string name="dock_theme_summary">Użyj ikon tematycznych dla paska wyszukiwania</string>
     <!-- Show top shadow -->
+    <string name="show_top_shadow">Pokaż górny cień</string>
 </resources>
