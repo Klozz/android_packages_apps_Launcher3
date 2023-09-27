@@ -17,11 +17,37 @@
 */
 -->
 <resources>
+    <string name="google_folder_title">Google</string>
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Проведите пальцем по экрану, чтобы перейти к приложению Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">При проведении пальцем влево от главного экрана</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">При проведении пальцем вправо от главного экрана</string>
+    <string name="pref_suggestions_title">Предложения</string>
+    <string name="pref_suggestions_summary">Для всех приложений и главного экрана</string>
+    <string name="pref_allow_phone_taskbar">Использовать панель задач</string>
+    <string name="pref_allow_phone_taskbar_desc">Для открытия и переключения приложений в любом месте</string>
+    <string name="pref_allow_phone_overview_grid">Показать сетку последних приложений</string>
+    <string name="pref_allow_phone_overview_grid_desc">Последние приложения в разделе Обзор</string>
     <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Жест двойного касания</string>
+    <string name="pref_dt_gesture_summary">Двойное нажатие на пустое место для выключения питания</string>
     <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Расположение замков</string>
+    <string name="settings_lock_layout_summary_on">Значки и виджеты нельзя добавлять, удалять и перемещать на главном экране</string>
+    <string name="settings_lock_layout_summary_off">Значки и виджеты можно добавлять, удалять и перемещать на главном экране</string>
+    <string name="settings_edit_widgets_error">Невозможно добавить виджеты на главный экран</string>
     <!-- Hide labels -->
+    <string name="desktop_show_labels">Показать ярлыки значков на рабочем столе</string>
+    <string name="drawer_show_labels">Показать ярлыки значков в ящике</string>
+    <string name="label_search">Поиск</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Голосовой поиск</string>
+    <string name="dock_search_title">Поисковая строка Google</string>
+    <string name="dock_search_summary">Показать поисковую строку в нижней части дока</string>
+    <string name="dock_theme_title">Значки с тематикой дока</string>
+    <string name="dock_theme_summary">Использование тематических иконок для строки поиска</string>
     <!-- Show top shadow -->
+    <string name="show_top_shadow">Показать верхнюю тень</string>
 </resources>
