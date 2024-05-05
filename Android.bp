@@ -406,8 +406,6 @@ android_app {
         "Home",
         "Launcher2",
         "Launcher3",
-        "NexusLauncherRelease",
-        "PixelLauncherOverlay",
         "QuickSearchBox",
     ],
     required: [
