@@ -71,7 +71,6 @@ import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 
 import com.android.launcher3.LauncherModel;
-import com.android.launcher3.R;
 import com.android.launcher3.dragndrop.FolderAdaptiveIcon;
 import com.android.launcher3.graphics.TintedDrawableSpan;
 import com.android.launcher3.icons.ShortcutCachingLogic;
@@ -827,16 +826,6 @@ public final class Utilities {
     public static boolean isDoubleTapGestureEnabled(Context context) {
         SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_DT_GESTURE, true);
-    }
-
-    public static void restart(final Context context) {
-        MODEL_EXECUTOR.execute(() -> {
-            try {
-                Thread.sleep(WAIT_BEFORE_RESTART);
-            } catch (Exception ignored) {
-            }
-            android.os.Process.killProcess(android.os.Process.myPid());
-        });
     }
 
     public static boolean isWorkspaceEditAllowed(Context context) {
