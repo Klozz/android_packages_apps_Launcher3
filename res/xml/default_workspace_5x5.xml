@@ -68,11 +68,11 @@
 
     <!-- Screen 0 -->
     <appwidget
-        launcher:packageName="com.google.android.googlequicksearchbox"
-        launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
+        launcher:packageName="com.sonymobile.xperiaweather"
+        launcher:className="com.sonymobile.xperiaweather.widget.ClockAndWeatherWidgetProvider"
         launcher:screen="0"
         launcher:x="0"
-        launcher:y="0"
+        launcher:y="1"
         launcher:spanX="5"
         launcher:spanY="1" />
 
@@ -120,6 +120,14 @@
         launcher:className="com.android.vending.AssetBrowserActivity"/>
 
     <!-- Screen 1 -->
+    <appwidget
+        launcher:packageName="com.google.android.apps.youtube.music"
+        launcher:className="com.google.android.apps.youtube.music.player.widget.MusicWidgetProvider"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="5"
+        launcher:spanY="2" />
 
     <resolve
         launcher:screen="1"
