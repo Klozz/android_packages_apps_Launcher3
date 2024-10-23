@@ -83,9 +83,7 @@ public class ApiWrapper implements ResourceBasedOverride, SafeCloseable {
         UserManager um = mContext.getSystemService(UserManager.class);
         Map<UserHandle, UserIconInfo> users = new ArrayMap<>();
         List<UserHandle> usersActual = um.getUserProfiles();
-        List<UserHandle> parallelUsers =
-                ParallelSpaceManager.getInstance().getParallelUserHandles();
-        usersActual.addAll(parallelUsers);
+        usersActual.addAll(ParallelSpaceManager.getInstance().getParallelUserHandles());
         if (usersActual != null) {
             for (UserHandle user : usersActual) {
                 long serial = um.getSerialNumberForUser(user);
@@ -93,10 +91,7 @@ public class ApiWrapper implements ResourceBasedOverride, SafeCloseable {
                 // Simple check to check if the provided user is work profile
                 // TODO: Migrate to a better platform API
                 NoopDrawable d = new NoopDrawable();
-                    // Parallel users also have badge so don't consider it as work profile
-                    boolean isParallelUser = parallelUsers.contains(user);
-                    boolean isWork = !isParallelUser &&
-                            d != mContext.getPackageManager().getUserBadgedIcon(d, user);
+                boolean isWork = (d != mContext.getPackageManager().getUserBadgedIcon(d, user));
                 UserIconInfo info = new UserIconInfo(
                         user,
                         isWork ? UserIconInfo.TYPE_WORK : UserIconInfo.TYPE_MAIN,
