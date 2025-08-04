@@ -142,6 +142,17 @@
     <!-- Recents -->
     <string name="action_lens">Google Lens</string>
     <!-- App drawer searchbar -->
+    <string name="drawer_search_title">Alkalmazáskereső-sáv</string>
+    <string name="drawer_search_summary">A keresősáv az Alkalmazásfiók tetején</string>
     <!-- AppInfo -->
+    <string name="app_info_source">Forrás</string>
+    <string name="app_info_source_system">Rendszer</string>
+    <string name="app_info_last_update">Legutóbbi frissítés</string>
+    <string name="app_info_version">Verzió</string>
+    <string name="app_info_more">Egyebek</string>
     <!-- Icon pack -->
+    <string name="icon_pack_title">Ikoncsomag</string>
+    <string name="icon_pack_default_label">Alapértelmezett</string>
+    <string name="icon_pack_add">Továbbiak telepítése</string>
+    <string name="icon_pack_no_market">Nincs elérhető alkalmazásáruház</string>
 </resources>
