@@ -17,6 +17,9 @@
     <!-- Application name -->
     <!-- Folder titles -->
     <!-- Lock -->
+    <string name="action_lock">Alkalmazás zárolása/feloldása</string>
+    <string name="unlock_app">Feloldott alkalmazások</string>
+    <string name="lock_app">Zárolt alkalmazások</string>
     <!-- General -->
     <string name="settings_title">Kezdőoldal-beállítások</string>
     <!-- Categories -->
@@ -33,6 +36,7 @@
     <string name="general_category_title">Általános</string>
     <string name="interface_category_title">Kezelőfelület</string>
     <string name="search_bar_category_title">Keresősáv</string>
+    <string name="actions_category_title">Gyorsműveletek</string>
     <!-- Developer options -->
     <string name="dev_options_title">Fejlesztői beállítások</string>
     <string name="dev_options_summary">Saját felelősségére rejtett beállításokat engedélyezhet</string>
@@ -82,6 +86,8 @@
     <string name="label_search">Keresés</string>
     <string name="label_lens">Google Lens</string>
     <string name="label_voice_search">Hangalapú keresés</string>
+    <string name="dock_music_search_title">Zenekeresés</string>
+    <string name="dock_music_search_summary">A mikrofonikon megnyomásakor elindul a zenekeresés</string>
     <string name="dock_search_title">Google keresősáv</string>
     <string name="dock_search_summary">Alsódokki keresősáv</string>
     <string name="dock_theme_title">Témázott ikonok</string>
@@ -93,6 +99,7 @@
     <!-- Background opacity -->
     <string name="background_opacity_title">Háttérátlátszóság</string>
     <!-- Stroke -->
+    <string name="stroke_width_title">Körvonal</string>
     <!-- Wallpaper scrolling -->
     <string name="allow_wallpaper_scrolling">Háttérkép-görgetés</string>
     <string name="allow_wallpaper_scrolling_summary">Háttérképgörgetési effekt többképernyős megjelenitéshez</string>
@@ -109,11 +116,19 @@
     <string name="single_page_center_title">Centerezett egyoldalas</string>
     <string name="single_page_center_summary">Helyezze középre a háttérképet, ha csak egyetlen oldalt használ</string>
     <!-- App drawer searchbar -->
+    <string name="drawer_search_title">Alkalmazáskereső-sáv</string>
+    <string name="drawer_search_summary">A keresősáv az Alkalmazásfiók tetején</string>
     <!-- Recents icons -->
+    <string name="recents_chips_title">Kompakt műveletdizájn</string>
+    <string name="recents_chips_summary">Ez sok művelet megjelenítéséhez szükséges lehet</string>
     <string name="recents_screenshot_title">Képernyőkép</string>
     <string name="recents_clear_all_title">Az Összes törlése</string>
     <string name="recents_lens_title">Google Lens</string>
+    <string name="intent_no_app_clock_found">Nem található naptári vagy óratevékenység</string>
     <!-- Background blur -->
     <string name="background_blur_title">A háttér-elmosás mélysége</string>
     <string name="background_blur_summary">Az előzmények és az alkalmazásfiók elmosási.értéke állítható itt</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%2$s memóriából %1$s érhető el</string>
+    <string name="recents_meminfo_title">Memória-információ</string>
 </resources>
