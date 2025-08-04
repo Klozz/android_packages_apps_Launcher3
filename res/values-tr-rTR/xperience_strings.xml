@@ -103,6 +103,7 @@
     <string name="label_lens">Google Lens</string>
     <string name="label_voice_search">Sesli arama</string>
     <string name="dock_search_title">Google arama çubuğu</string>
+    <string name="dock_search_summary">Alt kısımda arama çubuğu</string>
     <string name="dock_theme_title">Temalı simgeler</string>
     <string name="dock_theme_summary">Arama çubuğunda temalı simgeler kullan</string>
     <string name="search_radius_title">Köşe yarıçapı</string>
