@@ -20,10 +20,17 @@
 <resources>
     <!-- Folder titles -->
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_feed">Geser untuk mengakses aplikasi Umpan Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Dari layar beranda, geser ke kiri untuk membuka Umpan Google</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Dari layar beranda, geser ke kanan untuk membuka Umpan Google</string>
     <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Ketuk dua kali untuk tidur</string>
+    <string name="pref_dt_gesture_summary">Ketuk dua kali pada ruang kosong untuk mematikan layar</string>
     <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Saran</string>
+    <string name="suggestion_pref_screen_desc">Untuk semua aplikasi &amp; saran layar beranda</string>
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">Kunci tata letak</string>
     <string name="settings_lock_layout_summary_on">Ikon dan widget tidak dapat ditambahkan, dihapus dan dipindahkan pada layar beranda</string>
@@ -33,11 +40,20 @@
     <string name="desktop_show_labels">Tampilkan label ikon pada desktop</string>
     <string name="drawer_show_labels">Tampilkan label ikon di laci aplikasi</string>
     <!-- Settings Categories -->
+    <string name="category_google">Google</string>
+    <string name="category_icon">Ikon</string>
+    <string name="category_recents">Baru-baru ini</string>
     <!-- Hotseat searchbar -->
     <string name="label_search">Cari</string>
     <string name="label_lens">Google Lens</string>
     <string name="label_voice_search">Pencarian suara</string>
     <string name="dock_search_title">Bilah pencarian Google</string>
+    <string name="dock_search_summary">Bilah pencarian di dok bawah</string>
     <!-- Recents icons -->
+    <string name="recents_screenshot_title">Tangkapan layar</string>
+    <string name="recents_clear_all_title">Hapus semua</string>
+    <string name="recents_lens_title">Lens</string>
     <!-- Smartspace -->
+    <string name="smartspace_pref_title">Sekilas</string>
+    <string name="smartspace_pref_summary">Tampilkan ruang pintar di bagian atas layar beranda</string>
 </resources>
