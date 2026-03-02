@@ -128,4 +128,7 @@
     <!-- Background blur -->
     <string name="background_blur_title">Profundidad de desenfoque de fondo</string>
     <string name="background_blur_summary">Establecer nivel de profundidad de desenfoque para recientes y cajón de aplicaciones</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s disponible | %2$s</string>
+    <string name="recents_meminfo_title">Información de memoria</string>
 </resources>
